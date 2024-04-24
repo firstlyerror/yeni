@@ -87,13 +87,71 @@ if (!varsa)
 }
 Console.WriteLine("====================================================");
 /* -Verilmiş M dəyərindən verilmiş N dəyərinədək 21-ə bölünən ədədlərin ədədi ortasını tapan proqram*/
-int m = 1;
+
 int n = 43;
 int j = 0;
+double sum = 0;
 
 
-while(m < n)
+
+
+for (int m = 1;m < n; m++)
 {
-    j++;
+    if (m % 21 == 0)
+    {
+        Console.WriteLine(m);
+        sum=sum+m;
+        j++;
+    }
+
 }
-Console.WriteLine(j);
+double avg=sum/j;
+Console.WriteLine(avg);
+Console.WriteLine("====================================================");
+// - Verilmiş ədədin rəqəmləri cəmini tapan proqram
+
+Console.WriteLine("Bir eded daxil edin:");
+string input = Console.ReadLine();
+int number = Convert.ToInt32(input);
+
+int cem = 0;
+while (number > 0)
+{
+    int lastDigit = number % 10;
+    cem += lastDigit;
+    number /= 10;
+}
+
+Console.WriteLine("Ededin reqemleri cemi: " + cem);
+Console.WriteLine("====================================================");
+
+/*- Verilmiş ayın ədədinə görə hansı fəsil olduğunu tapan proqram*/
+
+string s=Console.ReadLine();
+int gun=Convert.ToInt32(s);
+
+if(gun==12 || gun==1 || gun == 2)
+{
+    Console.WriteLine("qisdir!");
+}
+
+if (gun == 3 || gun == 4 || gun == 5)
+{
+    Console.WriteLine("yazdir!");
+}
+
+if (gun == 6 || gun == 7 || gun == 8)
+{
+    Console.WriteLine("yaydir!");
+}
+
+if (gun == 9 || gun == 10 || gun == 11)
+{
+    Console.WriteLine("payizdir!");
+
+    
+}
+Console.WriteLine("====================================================");
+//- Verilmiş yazıda rəqəm olmamasını yoxlayan proqram, əgər rəqəm varsa yenidən yazının daxil edilməsini istəməlidir ta ki rəqəmsiz daxil edilənədək.
+
+
