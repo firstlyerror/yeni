@@ -1,15 +1,4 @@
-/*
-    
-   
-    
- Yeni tapşırıqlar:
 
-  - Verilmiş ədədin rəqəmləri cəmini tapan proqram
- - Verilmiş ayın ədədinə görə hansı fəsil olduğunu tapan proqram
- - Verilmiş yazıda rəqəm olmamasını yoxlayan proqram, əgər rəqəm varsa yenidən yazının daxil edilməsini istəməlidir ta ki rəqəmsiz daxil edilənədək.
-  - Verilmiş 2 ədəd üzərində verilmiş operator simvoluna uyğun riyazi əməliyyat aparan proqram. Misalçün consoledan 5,10 və + daxil edilsə 5 və 10-u toplayıb nəticəsini göstərsin.Console-dan daxil edilən operator + , -, *, / operatorlarından biri deyilsə operator yanlışdır yazılsın.
-
-*/
 /*- Verilmiş dəyər "salam"-dırsa "aleykum salam", "sag ol"-dursa "sen de sag ol" əks halda "Ya niznayuu poruski :( " yazdıran proqram*/
 string a= Console.ReadLine();
 if (a == "salam")
