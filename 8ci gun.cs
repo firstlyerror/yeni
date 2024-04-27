@@ -175,6 +175,49 @@ while (true)
     }
 
 }
+Console.WriteLine("====================================================");
+//Verilmiş 2 ədəd üzərində verilmiş operator simvoluna uyğun riyazi əməliyyat aparan proqram.
+//Misalçün consoledan 5,10 və + daxil edilsə5 və 10-u toplayıb nəticəsini göstərsin.
+//Console-dan daxil edilənoperator + , -, *, / operatorlarından biri deyilsə operator yanlışdır yazılsın.
+string b=Console.ReadLine();
+int c=Convert.ToInt32(b);
+
+string d=Console.ReadLine();
+int e=Convert.ToInt32(d);
+
+string a=Console.ReadLine();
+
+
+if (a == "+")
+{
+    
+    Console.WriteLine(c+e);
+
+}
+if (a == "-")
+{
+   
+    Console.WriteLine(c-e);
+
+}
+if (a == "*")
+{
+    
+    Console.WriteLine(c*e);
+
+}
+if (a == "/")
+{
+   
+    Console.WriteLine(c/e);
+
+}
+else if (a != "+" && a!="-" && a!="*" && a != "/")
+{
+    Console.WriteLine("duzgun opreatoru daxil edin!");
+}
+
+
 
 
 
