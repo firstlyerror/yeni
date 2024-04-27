@@ -143,4 +143,48 @@ if (gun == 9 || gun == 10 || gun == 11)
 Console.WriteLine("====================================================");
 //- Verilmiş yazıda rəqəm olmamasını yoxlayan proqram, əgər rəqəm varsa yenidən yazının daxil edilməsini istəməlidir ta ki rəqəmsiz daxil edilənədək.
 
+//Verilmiş yazıda rəqəm olmamasını yoxlayan proqram, əgər rəqəm varsa yenidən yazının daxil edilməsini istəməlidir ta ki rəqəmsiz daxil edilənədək.
+
+
+
+    static bool reqemfunksiyasi(string yazi)
+    {
+        for (int i = 0; i < yazi.Length; i++)
+        {
+            char simvol = yazi[i];
+
+            if (simvol >= '0' && simvol <= '9')
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+while (true)
+{
+    string girielnyazi = Console.ReadLine();
+
+    if (reqemfunksiyasi(girilenyazi))
+    {
+        Console.WriteLine("yazida reqem yoxudr bleeeeeeee");
+        break;
+
+
+    }
+    else
+    {
+        Console.WriteLine("reqem var bleeeeee");
+        Console.WriteLine("yeni yazi daxil edin:");
+    }
+
+}
+
+
+
+
+
+
+    
+
 
