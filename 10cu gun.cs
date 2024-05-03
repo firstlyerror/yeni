@@ -1,9 +1,4 @@
-/*-Dərsdə etdiklərimizi edib göndərmək
- 
- 
- 
- 
- -  Verilmiş 4 ədədin ortalamasını tapıq qaytaran metod*/
+
 
 /*-Verilmiş iki ədədi toplayıb nəticəsini qaytaran metod*/
 
