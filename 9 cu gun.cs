@@ -1,13 +1,4 @@
-/*Dərsdə etdiklərimizi tam şəkildə sərbəst edə bilənədək bir projjctdə yazırsınız və göndərirsiniz.
 
- 
-Daha sonra yeni tapşırıqların hamısını ayrı bir projectin içində yazıb eyni repoya yerləşdirirsiniz
-Yeni tapşırıqlar:
-
- - 
- - 
-- 
-*/
 
 /*-Verilmiş ədədin verilmiş qüvvətini tapan metod*/
 
